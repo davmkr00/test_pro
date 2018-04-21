@@ -96,6 +96,8 @@ class app(Frame):
         inpText=self.display.get()
         layn=(len(inpText)+1)
         self.display.insert(layn,'2')
+    def esh():
+        print('hello')
         
     def tree(self):
         inpText=self.display.get()
